@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header, 
+section h2,
+section h3{
+    font-family: 'Bungee', sans-serif;
+}
+body, input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #182C61;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+header h1{
+    color: #ECF0F1;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: normal; 
+}
+header li a{
+    text-decoration: none;
+    color: #ECF0F1;
+    display: inline-block;
+}
+header li{
+    display: inline-block;
+    margin-left: 16px;
+}
+header .container,
+section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .container{
+    align-items: flex-start;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+section h2{
+    margin-bottom: 16px;
+    font-weight: normal;
+}
+section h3{
+    font-weight: none;
+    margin-bottom: 16px;
+}
+#contact .container{
+    display: block;
+}
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+#about .container,
+#about h2{
+    color:  #182C61;
+}
+.store-front{
+    margin-right: 32px;
+    border-radius: 8px;
+}
+.logo img{
+    height: 24px;
+}
+.logo li,
+.social-links li{
+    display: inline;  
+}
+#about .logo img,
+.social-links img{
+    margin-top: 8px;
+    margin-bottom: 8px; 
+    margin-right: 16px;
+}
+
+#contact h2,
+#contact h3{
+    color:#182C61;
+}
+#button{
+    padding: 8px 20px;
+    background-color: #182C61;
+    border: none;
+    color: #ECF0F1;
+    cursor: pointer;
+    font-family:  'Bungee', sans-serif;;
+}
+#button:hover{
+    background-color: #27469c;
+    border-radius: 3px;
+}
+#about{
+    margin: 8px;
+}
+#contact{
+    margin: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+footer{
+    color: #ECF0F1;
+    background-color: #182C61;
+    padding: 16px;
+}
+.social-links img{
+    height: 24px;
+}
+form input,
+form textarea,
+form button{
+    width: 320px;
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+input:focus, textarea:focus{
+    outline-color: #182C61;
+}
+address{
+    color: #182C61;
+}
